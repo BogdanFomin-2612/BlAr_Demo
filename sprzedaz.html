@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprzedaż - Blar Sp. z o. o.</title>
+    <meta name="description" content="Oferta sprzedażowa asortymentu Blar">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://www.blar.pl/images/favicon.gif">
+    <style>
+        .page-header {
+            padding: 12rem 5% 4rem;
+            background: linear-gradient(180deg, var(--bg-color-light) 0%, var(--bg-color-dark) 100%);
+            text-align: center;
+        }
+
+        .content-section {
+            padding: 4rem 5% 8rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .content-section p {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+            line-height: 1.8;
+        }
+
+        .list-styled {
+            list-style-position: inside;
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+            font-size: 1.05rem;
+        }
+
+        .list-styled li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div style="display: flex; align-items: center; gap: 2rem;">
+            <a href="index.html" class="logo" style="display: flex; align-items: center;"><img src="images/blarlogo.jpg"
+                    alt="logo blar" style="height: 30px; display: block;"></a>
+            <div class="top-bar-images" style="display: flex; gap: 1rem;">
+                <img src="images/Unia.png" alt="Unia" style="height: 30px;">
+                <img src="images/duns.png" alt="D-U-N-S" style="height: 30px;">
+                <img src="images/iso.png" alt="ISO" style="height: 30px;">
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Strona Główna</a></li>
+            <li class="dropdown">
+                <a href="#">Oferta</a>
+                <ul class="dropdown-menu">
+                    <li><a href="wciagarki-linowe.html">Wciągarki linowe</a></li>
+                    <li><a href="dzwigi.html">Dźwigi</a></li>
+                    <li><a href="platformy-robocze.html">Platformy robocze</a></li>
+                    <li><a href="kosze-zsypowe.html">Kosze zsypowe</a></li>
+                </ul>
+            </li>
+            <li><a href="realizacje.html">Realizacje</a></li>
+            <li><a href="zaloga.html">Załoga</a></li>
+            <li><a href="sprzedaz.html" style="color:var(--primary-color);">Sprzedaż</a></li>
+            <li><a href="serwis.html">Serwis</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <div class="top-bar-contact" style="text-align: right; line-height: 1.3; font-size: 0.8rem;">
+            Zadzwoń: <a href="tel:+48587621662" style="color:var(--primary-color); font-weight:bold;">+48 58 762 16
+                62</a><br>
+            Napisz: <a href="mailto:biuro@blar.pl"
+                style="color:var(--primary-color); font-weight:bold;">biuro@blar.pl</a>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <h1>Sprzedaż</h1>
+        <p style="color: var(--text-muted); max-width: 600px; margin: 1rem auto;">Dostarczamy najwyższej jakości
+            rozwiązania sprzętowe, złącza oraz windy budowlane czołowych producentów.</p>
+    </header>
+
+    <main class="content-section">
+        <h3>Sprzęt Rusztowaniowy</h3>
+        <p>Firma oferuje do sprzedaży:</p>
+        <ol class="list-styled">
+            <li>Aluminiowe zestawy rusztowań przejezdnych o różnych parametrach produkcji firmy Layher ­ nowe i używane
+                posiadające wszystkie certyfikaty wymagane przez UE i Polskę.</li>
+            <li>Uniwersalne (kompatybilne do wszystkich systemów) elementy rusztowaniowe jak złącza normalne, obrotowe,
+                redukcyjne itp., dźwigary kratowe itd.</li>
+            <li>Wszystkie jednostki sprzętowe produkowane przez niemiecką firmę Geda.</li>
+        </ol>
+
+        <h3 style="margin-top: 3rem;">Autoryzowana Dystrybucja GEDA</h3>
+        <p>Blar Sp. z o. o. jest wyłącznym, autoryzowanym dealerem niemieckiego producenta urządzeń dźwignicowych na
+            Polskę Północną. Oferuje:</p>
+        <ol class="list-styled">
+            <li>Budowlane wciągarki linowe ­ m.in. wspomagające montaż rusztowań</li>
+            <li>Pochyłe wciągarki drabinowe ­ idealne do prac dekarskich</li>
+            <li>Masztowe windy towarowe i towarowo-osobowe o różnym udźwigu od 200kg do 2000kg</li>
+            <li>Pomosty robocze masztowe i podesty podwieszane na wysięgnikach dachowych</li>
+            <li>Zsypy do gruzu</li>
+            <li>Urządzenia do mycia fasad kurtynowych projektowane indywidualnie</li>
+        </ol>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Blar Sp. z o. o.</h4>
+                <p style="color: var(--text-muted);">ul. Litewska 16<br>80-719 Gdańsk</p>
+            </div>
+            <div class="footer-col">
+                <h4>Kontakt</h4>
+                <a href="tel:+48587621662">+48 58 762 16 62</a>
+                <a href="mailto:biuro@blar.pl">biuro@blar.pl</a>
+            </div>
+            <div class="footer-col">
+                <h4>Na skróty</h4>
+                <a href="zaloga.html">O nas (Załoga)</a>
+                <a href="realizacje.html">Realizacje</a>
+                <a href="serwis.html">Serwis</a>
+            </div>
+        </div>
+        <div class="footer-partners"
+            style="display: flex; justify-content: center; align-items: center; gap: 1.5rem; flex-wrap: wrap; padding-bottom: 2rem;">
+            <a href="https://www.comach.pl/" target="_blank"><img src="images/GoMach.svg" alt="Comach"
+                    style="height: 50px; padding: 8px 20px; background: rgba(255,255,255,0.9); border-radius: 12px; object-fit: contain; filter: grayscale(100%); opacity: 0.7; transition: all 0.3s;"
+                    onmouseover="this.style.filter='grayscale(0%)'; this.style.opacity='1'; this.style.transform='translateY(-3px)'"
+                    onmouseout="this.style.filter='grayscale(100%)'; this.style.opacity='0.7'; this.style.transform='translateY(0)'"></a>
+            <a href="https://layher.pl/" target="_blank"><img src="images/layher.svg" alt="Layher"
+                    style="height: 50px; padding: 8px 20px; background: rgba(255,255,255,0.9); border-radius: 12px; object-fit: contain; filter: grayscale(100%); opacity: 0.7; transition: all 0.3s;"
+                    onmouseover="this.style.filter='grayscale(0%)'; this.style.opacity='1'; this.style.transform='translateY(-3px)'"
+                    onmouseout="this.style.filter='grayscale(100%)'; this.style.opacity='0.7'; this.style.transform='translateY(0)'"></a>
+            <a href="https://www.geda.de/" target="_blank"><img src="images/geda.png" alt="GEDA"
+                    style="height: 50px; padding: 8px 20px; background: rgba(255,255,255,0.9); border-radius: 12px; object-fit: contain; filter: grayscale(100%); opacity: 0.7; transition: all 0.3s;"
+                    onmouseover="this.style.filter='grayscale(0%)'; this.style.opacity='1'; this.style.transform='translateY(-3px)'"
+                    onmouseout="this.style.filter='grayscale(100%)'; this.style.opacity='0.7'; this.style.transform='translateY(0)'"></a>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2024 Blar. Wszelkie prawa zastrzeżone. Nowoczesny redesign.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
