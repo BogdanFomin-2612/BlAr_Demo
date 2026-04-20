@@ -453,51 +453,97 @@ footer {
   }
 }
 
-/* Product Pages Layout (Dźwigi etc.) */
+/* Product Pages Layout (Dźwigi etc.) - Matches Screenshot */
 .product-layout {
   display: flex;
   flex-wrap: wrap;
-  gap: 3rem;
+  gap: 2rem;
   max-width: 1200px;
   margin: 0 auto 8rem;
   padding: 0 5%;
+  align-items: flex-start;
 }
 .product-main {
   flex: 1;
   min-width: 300px;
+  background: #ffffff;
+  padding: 3rem;
+  border-radius: 4px;
+}
+.product-main h1 {
+  font-size: 2.5rem;
+  color: #002b5e !important;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  background: none;
+  -webkit-text-fill-color: initial;
+}
+.product-main h3 {
+  font-size: 1.8rem;
+  color: #b30000 !important;
+  margin-bottom: 2.5rem;
+}
+.product-main h4 {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+.product-main p {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 .product-content {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
+  align-items: stretch;
 }
 .product-text {
   flex: 1;
-  min-width: 300px;
+  min-width: 250px;
 }
 .product-image {
   flex: 1;
-  min-width: 300px;
+  min-width: 250px;
 }
 .product-sidebar {
-  width: 350px;
+  width: 300px;
   flex-shrink: 0;
+  background: #ffffff;
+  border: 1px solid #ddd;
 }
 @media (max-width: 900px) {
   .product-sidebar {
       width: 100%;
   }
 }
+.product-sidebar h3 {
+  background: #002b5e;
+  color: #ffffff;
+  padding: 1.2rem 1.5rem;
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.product-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 .sidebar-link {
   display: block;
   padding: 1rem 1.5rem;
-  color: var(--text-muted);
-  border-bottom: 1px solid var(--border-color);
+  color: #666;
+  border-bottom: 1px dotted #ccc;
+  font-size: 0.95rem;
   transition: all var(--transition-speed);
 }
 .sidebar-link:hover, .sidebar-link.active {
-  background: rgba(255, 255, 255, 0.05);
-  color: var(--primary-color);
+  background: #f9f9f9;
+  color: #002b5e;
   padding-left: 2rem;
 }
 .sidebar-link:last-child {
